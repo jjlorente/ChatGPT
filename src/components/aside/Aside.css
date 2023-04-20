@@ -1,0 +1,85 @@
+.Aside {
+    display: flex;
+    background: rgba(255, 0, 0, 0.226);
+    min-width: 285px;
+    height: 100%;
+    background: #202123;
+    font-size: .925rem;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 770px) {
+    .Aside {
+        display: none;
+    }
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: .5rem;
+    line-height: 1.25rem;
+}
+
+.chats {
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+.chat, .chat-done{
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: .375rem;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: .25rem;
+    padding-bottom: .86rem;
+    padding-top: .86rem;
+    padding-left: .80rem;
+    padding-right: .80rem;
+    line-height: 1.25rem;
+    transition: all ease 0.3s;
+}
+
+.a-border{
+    border: 1px solid;
+    border-color: hsla(0, 0%, 100%, .2);
+}
+
+.a-hover:hover{
+    background: #2c2e30;
+}
+
+.chat span{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.functionalities {
+    flex: 0;
+}
+
+svg {
+    width: 18px;
+    height: auto;
+}
+
+/* functionalities */
+
+.functionalities {
+    border-top: 1px solid;
+    border-color: hsla(0, 0%, 100%, .2);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    padding-top: 10px;
+}

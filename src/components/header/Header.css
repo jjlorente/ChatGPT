@@ -1,0 +1,9 @@
+.Header {
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    .Header {
+        display: block;
+    }
+}

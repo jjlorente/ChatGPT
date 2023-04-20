@@ -1,15 +1,20 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Aside } from './components/aside/Aside'
+import { Header } from './components/header/Header'
+import { Main } from './components/main/Main'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [asideActive, setAsideActive] = useState(true);
 
   return (
-    <>
-      <span>App init</span>
-    </>
+    <div className='App'>
+      <Header />
+      <div className='main'>
+        {asideActive && <Aside />}
+        <Main />
+      </div>
+    </div>
   )
 }
 
