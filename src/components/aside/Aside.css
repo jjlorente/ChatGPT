@@ -1,14 +1,13 @@
 .Aside {
     display: flex;
-    background: rgba(255, 0, 0, 0.226);
-    min-width: 285px;
-    height: 100%;
     background: #202123;
+    min-width: 286px;
     font-size: .925rem;
     font-weight: 500;
+    min-height: 100vh !important;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
     .Aside {
         display: none;
     }
@@ -20,6 +19,7 @@ nav{
     width: 100%;
     padding: .5rem;
     line-height: 1.25rem;
+    min-height: auto;
 }
 
 .chats {

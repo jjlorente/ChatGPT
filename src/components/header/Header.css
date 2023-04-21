@@ -1,5 +1,6 @@
 .Header {
     display: none;
+    background-color: antiquewhite;
 }
 
 @media screen and (max-width: 770px) {
