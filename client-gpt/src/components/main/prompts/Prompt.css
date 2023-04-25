@@ -79,19 +79,19 @@
 
 img {
     background: rgb(253, 253, 239);
-    border-radius: 5px;
+    border-radius: 3px;
     width: 100%;
     height: auto;
-    max-width: 37px !important;
-    max-height: 37px;
+    max-width: 35px !important;
+    max-height: 35px;
 }
 
 .gpt-svg{
-    border-radius: 5px;
-    background: #74AC9E;
+    border-radius: 3px;
+    background: #1F9F80;
     padding: 3px;
-    min-width: 31px;
-    min-height: 31px;
+    min-width: 28px;
+    min-height: 28px;
     /* width: 35px; */
-    height: 31px !important;
+    height: 28px !important;
 }

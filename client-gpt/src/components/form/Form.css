@@ -20,6 +20,7 @@ form {
 }
 
 .form-container{
+    border: 1px solid #ffffff1a;
     padding-left: 1rem;
     padding-bottom: .75rem;
     padding-top: .75rem;
