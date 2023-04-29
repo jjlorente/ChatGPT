@@ -16,9 +16,9 @@ app.post("/api/question", (req,res) => {
 
     (async () => {
         const response = await cohere.generate({
-            model: 'command-xlarge-beta',
+            model: 'command',
             prompt: `${question}`,
-            max_tokens: 100,
+            max_tokens: 300,
             temperature: 0.8,
             k: 21,
             stop_sequences: [],

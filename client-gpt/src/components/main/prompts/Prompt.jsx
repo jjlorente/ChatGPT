@@ -20,7 +20,7 @@ export const Prompt = (props) => {
   `;
 
   const Bar = styled.div`
-    margin-top: 7px;
+    margin-top: 5px;
     height: 25px;
     width: 10px;
     background-color: rgb(250, 250, 230, 0.9);
